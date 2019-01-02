@@ -26,7 +26,7 @@ def getWindCode(search_info):
         'userTypes':'',
         'range':'0',
         'sp':'title',
-        'wind.sessionid':'6fa0c0e5acbd43038876f0a286fa8ab6', # you should change the session_id when the response code is not 200
+        'wind.sessionid':'e94702051bf44d77b0bdb6be4ee507d6', # you should change the session_id when the response code is not 200
         'fileds':'title,windcode,spell,fullspell,tagcode,areacode,keyword,content,abstract',
         'sort':'_score desc,publishdate desc',
         'suggest':'0',
@@ -59,6 +59,6 @@ def getWindCode(search_info):
         print("the reason of error is {}".format(e))
 
 if __name__ == "__main__":
-    search_info = "深圳前海联捷商业保理有限公司关于公开发行前海联捷2018年度第一期兴捷供应链应付账款资产支持票据"
+    search_info = "安徽省能源集团有限公司2018年度第一期中期票据"
     getWindCode(search_info)
 
